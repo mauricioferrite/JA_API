@@ -34,7 +34,7 @@ app.post('/movie', (req, res) => {
 
     console.log(movie);
     movies.push(movie);
-    res.send('Movie Added!');
+    res.send('Movie Added!!');
 })
 
 // Search for a movie
